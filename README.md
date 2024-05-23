@@ -1,4 +1,4 @@
-# Blog Post Project
+# Blog Post Project using plain PHP
 
 ## Technologies Used
 
