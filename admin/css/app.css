@@ -1,0 +1,16 @@
+.col-sm-10 {
+  width: 83% !important;
+}
+
+nav ol a {
+  text-decoration: none;
+}
+.previweimg {
+  height: 218px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.previweimg img {
+  width: 100%;
+}
