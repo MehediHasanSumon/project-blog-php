@@ -15,6 +15,32 @@
 
 - PHPMailer
 
+### Installation of PHPMailer
+
+First, you need to install PHPMailer. The recommended way is via Composer:
+
+```bash
+composer require phpmailer/phpmailer
+```
+
+### Configuration of the `.env` File
+
+Create a `.env` file in the root of your project and add the following content:
+
+```
+# Database connection
+DB_HOST=your_database_host
+DB_USER=your_database_user
+DB_PASSWORD=your_database_password
+DB_NAME=your_database_name
+
+# Config for SMTP
+MAIL_HOST=your_mail_host
+MAIL_PORT=your_mail_port
+MAIL_USERNAME=your_mail_username
+MAIL_PASSWORD=your_mail_password
+```
+
 ## Directory Structure
 
 ```
@@ -144,4 +170,4 @@ project
 
 ---
 
-By following the above instructions and structure, you should be able to set up and run the blog post project seamlessly. The project is designed to be extensible and maintainable, leveraging a combination of modern web technologies and best practices. Enjoy building and customizing your blog!
+This document provides an overview of the blog post project, including the technologies used, installation steps, configuration details, and a guide on how to run the project. It also highlights the key features of the project to ensure you have a comprehensive understanding of its structure and functionality.
